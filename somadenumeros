@@ -1,0 +1,6 @@
+n1 = int(input("digite um numero: "))
+n2 = int(input("digite outro numero: "))
+resultado = n1 + n2
+
+print(f"o valor da soma entre {n1} e {n2} e: {resultado}! ")
+

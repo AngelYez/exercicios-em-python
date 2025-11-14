@@ -1,0 +1,19 @@
+print('==== ANALISE COMPLETA DO SEU TEXTO ====')
+n = input('digite algo! ')
+
+print(type(n))
+print(f'e letra ou numero? {n.isalnum()}')
+print(f'e so letra? {n.isalpha()}')
+print(f'e caractere ASCII? {n.isascii()}')
+print(f'e decimal? {n.isdecimal()}')
+print(f'e numerico com elevos? {n.isdigit()}')
+print(f'e numerico? {n.isnumeric()}')
+print(f'e tudo minusculo? {n.islower()}')
+print(f'e tudo maiusculo? {n.isupper()}')
+print(f'e estilo de titulo? {n.istitle()}')
+print(f'so contem espacos? {n.isspace()}')
+print(f'so  pode ser nome de variavel? {n.isidentifier()}')
+print(f'so pode ser impresso? {n.isprintable()}')
+
+print('==== SEU TEXTO FOI ANALISADO COM  SUCESSO! ')
+
