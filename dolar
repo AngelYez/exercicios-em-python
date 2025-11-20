@@ -1,0 +1,8 @@
+r = float(input('quantos reais voce tem? R$ '))
+d = r / 5.31
+print(f"com {r:.0f} reais voce pode comprar US${d:.2f} !")
+print(f'{r / 6.16:.2f} euros!')
+print(f'{r / 6.99:.2f} libras!')
+print(f'e {r * 29.24:.2f} yenes!')
+
+#um algoritmo de conversao de moedas.

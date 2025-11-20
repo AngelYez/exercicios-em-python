@@ -1,0 +1,5 @@
+p = float(input("qual o preco do produto?R$ "))
+v = p - (p * (5/100))
+print(f"o produto que custava {p}R$, com desconto de 5% fica {p - (p * (5/100))}R$! ")
+
+#um algoritmo que calcula o desconto de um valor com valor fixo de 5. 

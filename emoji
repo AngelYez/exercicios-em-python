@@ -1,0 +1,6 @@
+import emoji 
+print(emoji.emojize('hello world! :smiling_face_with_sunglasses: '))
+print(emoji.emojize('gustavo guanabara is :Brazil: '))
+print(emoji.emojize('and Python is :smiling_face_with_heart-eyes: '))
+
+#:thumbs_up:

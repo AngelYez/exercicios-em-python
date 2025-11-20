@@ -1,0 +1,9 @@
+m = float(input('digite o valor em metros: '))
+dm = m * 10
+cm = m * 100
+mm = m * 1000
+dam = m * 0.1
+hm = m * 0.01
+km = m * 0.001
+print(f'a medida de {m}metros corresponde a:')
+print(f'{dm:.0f} dm \n {cm:.0f} cm \n {mm:.0f} mm \n {dam} dam \n {hm} hm \n e {km} km! ')

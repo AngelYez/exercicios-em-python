@@ -1,0 +1,4 @@
+n2 = float(input('digite um numero: '))
+print(f'o dobro de {n2} vale {n2 * 2}',end=' ')
+print(f'o triplo de {n2} vale {n2 * 3}',end=' ')
+print(f'e a raiz de {n2} vale {n2 ** (1/2):.2f}! ')

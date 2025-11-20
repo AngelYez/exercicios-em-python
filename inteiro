@@ -1,0 +1,4 @@
+import emoji
+from math import trunc
+num = float(input('digite um numero: '))
+print(emoji.emojize(f'a parte inteira de de {num} e {trunc(num)}:cat_with_wry_smile:! '))

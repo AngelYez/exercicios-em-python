@@ -1,0 +1,4 @@
+from math import pow,sqrt
+p = int(input('digite um numero: '))
+r = int(input('digite outro: '))
+print(f'a potencia e {pow(p,r)}')

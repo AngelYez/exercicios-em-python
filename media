@@ -1,0 +1,5 @@
+nota = float(input("digite sua nota: "))
+nota2 = float(input("digite sua outra nota: "))
+print(f"sua media final e: {(nota + nota2)/ 2:.1f}! ")
+
+#um algoritmo que calcula a media final de um aluno. 

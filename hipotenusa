@@ -1,0 +1,7 @@
+from math import sqrt, pow, hypot
+catetoop = float(input('digite o cateto oposto: '))
+catetoad = float(input('digite o cateto adjacente: '))
+print(f'a hipotenusa de {catetoop} e {catetoad} e',end=' ')
+print(f'{hypot(catetoop, catetoad ):.2f}!')
+
+#um algotimo para calcular a hipotenusa de dois catetos. 

@@ -1,0 +1,3 @@
+n = int(input("digite um numero: "))
+print(f'analisando o numero {n}, o antecessor e {n - 1} e o sucessor e {n + 1}')
+#um algoritmo que diz o antecessor e sucessor de um numero.

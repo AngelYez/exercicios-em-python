@@ -1,0 +1,16 @@
+# virtualenv
+venv/
+.VENV/
+.env/
+.venv/
+
+# Python cache / build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# IDE / OS
+.vscode/
+.DS_Store

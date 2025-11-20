@@ -1,0 +1,8 @@
+# um algoritmo que escolhe aleatoriamente algum valor dentro de uma lista.
+import random
+a1 = input('qual e o primeiro alunos(a)? ')
+a2 = input('o segundo(a)? ')
+a3 = input('o terceiro(a)? ')
+a4 = input('e o quarto(a)? ')
+lista = random.choice([a1, a2, a3, a4])
+print(f'e o escolhido para apagar o quadro foi... {lista}! ')

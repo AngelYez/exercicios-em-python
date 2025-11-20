@@ -1,0 +1,6 @@
+# um  algoritmo que le quantos dias e km voce andou com o carro e com base que 1 dia custe 60 reais,  e 1km vale 0.15 reais
+# diz o valor total a se pagar.
+d = int(input('quantos dias voce ficou com o carro? '))
+k = float(input('quantos km voce andou? '))
+v = d * 60 + k * 0.15
+print(f'o total a se pagar por {d} dias e {k}km e de {d * 60 + k * 0.15}R$! ')

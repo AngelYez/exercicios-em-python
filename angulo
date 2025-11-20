@@ -1,0 +1,5 @@
+#um algritmo que le o angulo de algo e diz os seus valores em seno,  cosseno  e tangente.
+from math import radians, sin, cos, tan
+angulo = float(input('digite o angulo: '))
+print(f'o seno de {angulo} e {sin(radians(angulo)):.2f}, o cosseno e {cos(radians(angulo)):.2f}',end=' ')
+print(f'e o tangente e {tan(radians(angulo)):.2f}! ')

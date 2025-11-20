@@ -1,0 +1,4 @@
+frase2 = 'toronto canada'
+print(frase2[9::3])
+frase = 'curso em video python'
+print(frase[9::3])
