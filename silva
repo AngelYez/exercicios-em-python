@@ -1,0 +1,4 @@
+nome = str(input('\033[1;36;44mdigite o seu nome: \033[0m ')).strip()
+
+print(f'tem silva no seu nome? {"silva" in nome.lower()}')
+

@@ -1,0 +1,6 @@
+idade = int((input('qual e a sua idade para entrar na balada? ')))
+if idade >= 18:
+    print('pode entrar')
+    
+else: 
+    print('nao pode entrar')    

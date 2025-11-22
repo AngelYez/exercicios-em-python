@@ -1,0 +1,6 @@
+nome = str(input('qual e o seu nome? '))
+if nome == 'milena':
+    print('credo sai fora deus zebu! ')
+else:
+    print('que nome maravilhosooo! ')   
+     

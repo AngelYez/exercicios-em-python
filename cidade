@@ -1,0 +1,4 @@
+cidade = str(input('qual o nome da sua cidade? ')).strip()
+
+
+print(f'sera que sua cidade comeca com o nome santo? {cidade[:5].lower() == 'santo'}')

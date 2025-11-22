@@ -1,0 +1,9 @@
+v = float(input('a quantos km/h voce estava andando cidadao? '))
+
+m = (v - 80)  * 7
+
+if v > 80:
+
+    print(f'voce ultrapassou velocidade maxima permitda de 80 km! sua multa sera de {m}R$! ')
+
+print('tudo bem, pode continuar viagem! ')    

@@ -1,0 +1,8 @@
+km = float(input('qual e a distancia da viagem? '))
+
+if km <= 200:
+
+    print(f'com a distancia de {km:.1f}km o valor da passagem e de {km * 0.50}R$')
+
+else:
+    print(f'com a distancia de {km:.1f}km o valor da passagem e de {km * 0.45}R$')   

@@ -1,0 +1,39 @@
+n1 = int(input('digite o primeiro numero: '))
+n2 = int(input('digite o segundo numero: '))
+n3 = int(input('digite o terceiro numero: '))
+
+# BLOCO PARA ENCONTRAR O MAOR 
+if n1 > n2 and n1 > n3: 
+
+    print(f'o primeiro numero {n1} e maior que o segundo numero {n2}',end=' ')
+    print(f'e maior que terceiro {n3}')
+
+elif n2 > n1 and n2 > n3: 
+        
+    print(f'o segundo numero {n2} e maior que o primeiro numero {n1}',end=' ')
+    print(f'e maior que o terceiro numero {n3}')
+
+elif n3 > n1 and n3 > n2:
+     print(f'o terceiro numero {n3} e maior que o primeiro numero {n1}',end=' ')
+     print(f'e maior que o segundo numero {n2}')
+
+else:
+    print(f'empate')            
+
+# BLOCO PARA ENCONTRAR O MENOR 
+if n1 < n2 and n1 < n3:
+    print(f'o primeiro numero {n1} e menor que o segundo numero {n2}',end=' ')
+    print(f'e menor que o terceiro numero {n3}')
+
+elif n2 < n1 and n2 < n3:
+    print(f'o segundo numero {n2} e menor que o primeiro numero {n1}',end=' ')
+    print(f'e menor que o terceiro numero {n3}')
+
+elif n3 < n1 and n3 < n2:
+    print(f'o terceiro numero {n3} e menor que o primeiro numero {n1}',end=' ')
+    print(f'e menor que o segundo numero {n2}')
+
+else: 
+    print(f'empate')
+
+print('fim')

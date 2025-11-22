@@ -1,0 +1,7 @@
+nome = str(input('qual e o seu nome? '))
+if nome == 'angelo':
+    print('que nome lindo voce tem!')
+else:
+    print('que nome normal voce tem  ne!')
+
+print(f'bom dia {nome}! ')    

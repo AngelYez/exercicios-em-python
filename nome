@@ -1,0 +1,9 @@
+nome  = input('qual e o seu nome? ' )
+
+print(f'seu nome em minusculo: {nome.lower()}')
+print(f'seu nome em maisculo: {nome.upper()}')
+print(f'seu nome tem {len(nome.replace(' ', ''))} letras! ')
+
+nome1 = nome.split()
+
+print(f'o seu primeiro e nome e {nome1[0]} e tem {len(nome1[0])} letras! ')

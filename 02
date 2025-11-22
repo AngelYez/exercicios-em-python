@@ -1,0 +1,5 @@
+p = int(input('quantos pontos voce tem para comprar a passagem? '))
+if p >= 700:
+    print('certo! seja bem vindo(a) a bordo! ')
+else:
+    print('infelizmente voce nao tem os pontos necessarios para comprar a passagem ')    

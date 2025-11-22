@@ -1,0 +1,15 @@
+from random import randint
+
+from time import sleep
+
+computer = randint(1,5)
+
+player = int(input('qual numero de 1 a 5 voce acha que eu escolhi humano patetico? ')) 
+
+print('processando...')
+sleep(2)
+
+if player == computer:
+    print('acertou, foi sorte! ')
+else:
+    print(f'hahaha errou eu escolhei {computer}!')
